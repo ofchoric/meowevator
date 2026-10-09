@@ -113,9 +113,9 @@ if workspace:FindFirstChild("Forest_TwoStudCamp") then
     for _, gnarp in ipairs(workspace.Forest_TwoStudCamp.Build.Firewood:GetChildren()) do
         tp(gnarp.CFrame)
         fp(gnarp)
-        task.wait(0.10)
+        task.wait(0.20)
     end
-    task.wait(0.3)
+    task.wait(0.15)
     tp(spud.CFrame + Vector3.new(0, 3, 0))
     fp(spud)
 end
